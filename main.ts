@@ -100,7 +100,7 @@ let Mode = 0
 let Inertia_Max = 0
 let ModeInitialize = 0
 let strip: neopixel.Strip = null
-strip = neopixel.create(DigitalPin.P2, 20, NeoPixelMode.RGB)
+strip = neopixel.create(DigitalPin.P0, 20, NeoPixelMode.RGB)
 ModeInitialize = 1
 // This number sets how long it takes to stop the chase pattern in mode A
 Inertia_Max = 255
