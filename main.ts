@@ -177,12 +177,5 @@ MakeAPattern()
 // Mode C: This mode sets the LED strand to purple and the brightness is tied to the amount of light picked up by the board
 // 
 basic.forever(function () {
-    if (Mode == 0) {
-        Rotate_Pixels(500)
-    } else if (Mode == 1) {
-        Compass()
-    } else if (Mode == 2) {
-        MakeAPattern()
-    }
-    Fade_LEDs()
+    Compass()
 })
